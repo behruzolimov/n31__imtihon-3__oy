@@ -1,0 +1,328 @@
+.section__3 {
+    width: 80%;
+    height: 534px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h3 {
+        color: #FFF;
+        font-family: "Poppins__700";
+        font-size: 34px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .section__3-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .section__3-box__main-img {
+            width: 520px;
+            height: 390px;
+            align-self: center;
+        }
+
+        .section__3-box__aside {
+            width: 520px;
+            height: 430px;
+            align-self: self-end;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .section__3-box__aside-item {
+                width: 100%;
+                height: 33%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .section__3-box__aside-item__img {
+                    width: 40%;
+                    height: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .section__3-box__aside-item__img-box {
+                        border-radius: 50%;
+                        width: 40px;
+                        height: 40px;
+                        background: #F4F5F7;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                            height: 20px;
+                            width: 20px;
+                        }
+                    }
+
+                    h3 {
+                        color: #FFF;
+                        text-align: center;
+                        font-family: "Poppins__600";
+                        font-size: 24px;
+                        font-weight: 600;
+                    }
+                }
+
+                p {
+                    color: #FFF;
+                    font-family: "Poppins__400";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 446px) {
+    .section__3 {
+        height: 100px;
+        margin-top: 29px;
+
+        h3 {
+            font-size: 7px;
+        }
+
+        .section__3-box {
+            height: 80px;
+
+            .section__3-box__main-img {
+                width: 95px;
+                height: 70px;
+                margin-top: 9px;
+            }
+
+            .section__3-box__aside {
+                width: 95px;
+                height: 75px;
+
+                .section__3-box__aside-item {
+                    height: 32%;
+    
+                    .section__3-box__aside-item__img {
+                        width: 47%;
+                        height: 12px;
+    
+                        .section__3-box__aside-item__img-box {
+                            border-radius: 10px;
+                            width: 10px;
+                            height: 10px;
+    
+                            img {
+                                height: 5px;
+                                width: 5px;
+                            }
+                        }
+    
+                        h3 {
+                            font-size: 5px;
+                        }
+                    }
+    
+                    p {
+                        font-size: 3px;
+                        line-height: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 447px) and (max-width: 769px) {
+    .section__3 {
+        margin-top: 35px;
+        height: 280px;
+        width: 90%;
+
+        h3 {
+            font-size: 13.8px;
+        }
+
+        .section__3-box {
+            height: 210px;
+
+            .section__3-box__main-img {
+                width: 42%;
+                height: 80%;
+            }
+
+            .section__3-box__aside {
+                width: 52%;
+                height: 95%;
+
+                .section__3-box__aside-item {
+                    height: 32%;
+    
+                    .section__3-box__aside-item__img {
+                        width: 41%;
+                        height: 30px;
+    
+                        .section__3-box__aside-item__img-box {
+                            border-radius: 20px;
+                            width: 30px;
+                            height: 30px;
+    
+                            img {
+                                height: 12px;
+                                width: 12px;
+                            }
+                        }
+    
+                        h3 {
+                            font-size: 13px;
+                        }
+                    }
+    
+                    p {
+                        font-size: 9px;
+                        line-height: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 770px) and (max-width: 990px) {
+    .section__3 {
+        height: 330px;
+        margin-top: 42px;
+
+        h3 {
+            font-size: 23.9px;
+        }
+
+        .section__3-box {
+            height: 250px;
+
+            .section__3-box__main-img {
+                width: 42%;
+                height: 80%;
+            }
+
+            .section__3-box__aside {
+                width: 52%;
+                height: 95%;
+
+                .section__3-box__aside-item {
+                    height: 32%;
+    
+                    .section__3-box__aside-item__img {
+                        width: 41%;
+                        height: 30px;
+    
+                        .section__3-box__aside-item__img-box {
+                            border-radius: 20px;
+                            width: 30px;
+                            height: 30px;
+    
+                            img {
+                                height: 12px;
+                                width: 12px;
+                            }
+                        }
+    
+                        h3 {
+                            font-size: 13px;
+                        }
+                    }
+    
+                    p {
+                        font-size: 9px;
+                        line-height: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 991px) and (max-width:1200px) {
+    .section__3 {
+        margin-top: 42px;
+        height: 480px;
+
+        h3 {
+            font-size: 30.7px;
+        }
+
+        .section__3-box {
+            height: 75%;
+
+            .section__3-box__main-img {
+                width: 42%;
+                height: 80%;
+            }
+
+            .section__3-box__aside {
+                width: 52%;
+                height: 95%;
+
+                .section__3-box__aside-item {
+                    height: 32%;
+    
+                    .section__3-box__aside-item__img {
+                        width: 41%;
+                        height: 35px;
+    
+                        .section__3-box__aside-item__img-box {
+                            border-radius: 20px;
+                            width: 35px;
+                            height: 35px;
+    
+                            img {
+                                height: 15px;
+                                width: 15px;
+                            }
+                        }
+    
+                        h3 {
+                            font-size: 20px;
+                        }
+                    }
+    
+                    p {
+                        font-size: 15px;
+                        line-height: 20px;
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1201px) {
+    .section__3 {
+        margin-top: 80px;
+        height: 540px;
+
+        h3 {
+            font-size: 37.1px;
+        }
+
+        .section__3-box {
+            height: 75%;
+
+            .section__3-box__main-img {
+                width: 42%;
+                height: 80%;
+            }
+
+            .section__3-box__aside {
+                width: 52%;
+                height: 95%;
+            }
+        }
+    }
+}
